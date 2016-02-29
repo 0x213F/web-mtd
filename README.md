@@ -11,4 +11,4 @@ Right now the API key is on the front end and users cannot define or save a prof
 
 - (optional) Let me know the cool app you make!
 
-Come say hi -> http://schultheiss.io/connect
+Come say hi -> http://schultheiss.io/connect.html

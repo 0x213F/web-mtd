@@ -1,0 +1,65 @@
+<!--
+
+Copyright 2015 Joshua Schultheiss
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+		http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8"/>
+	<!-- ########### Tab Name ########### -->
+	<title>CUMTD</title>
+
+	<!-- ########### Apple Safari Preview ########### -->
+	<!-- <link rel="apple-touch-icon" href="logo.png"> -->
+
+	<!-- ########### Import Google ########### -->
+	<link href='http://fonts.googleapis.com/css?family=Poppins:300,400,600' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+	<!-- ########### Link Style Sheets ########### -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- ########### Link JavaScript ########### -->
+	<script src="javascript.js"></script>
+	<script src="functions.js"></script>
+
+	<!-- ########### Link Bootstrap ########### -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div id='side'>
+	<form class="form-inline">
+	  <div class="form-group">
+			<input id="profile" class="form-control" type="text" value="ISR" placeholder="profile" style="padding-left:10px;width:635px;height:88px;font-size:58px;line-height:88px;text-transform:uppercase;" maxlength="16" onkeydown="if (event.keyCode == 13) { getStopsAndBuses(); return false; }"></input>
+			<button type="button" class="btn btn-default" onclick="getStopsAndBuses();" style="width:280px;height:88px;font-size:58px;line-height:58px;">submit</button>
+		</div>
+	</form>
+
+	<div id='frequentStops'></div>
+	<p style="font-size:40px; line-height:60px; color:white;">Try searching for ISR, HOME or COUNTY.
+		<br>
+</div>
+
+</body>
+</html>

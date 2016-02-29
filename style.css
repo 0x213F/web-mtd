@@ -1,0 +1,121 @@
+
+*{ margin:0;padding:0;font-family: -apple-system, 'Poppins', sans-serif; z-index: 0; }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* ############################ */
+/* ###### FREQUENT STOPS ###### */
+/* ############################ */
+
+#side {
+	height: 100%;
+	width: 100%;
+  padding: 30px;
+
+	background-color: #151515;
+
+	float: left;
+
+	z-index: 1;
+}
+
+#console {
+	height: 400px;
+	width: 270px;
+	color: #E56717;
+	padding-left: 10px;
+
+	overflow-y: hidden;
+}
+
+#frequentStops {
+	width: 100%;
+
+	overflow-x: hidden;
+	overflow-y: auto;
+
+	color: #151515;
+
+	z-index: 2; /* redundant */
+}
+
+.stop {
+
+
+  margin-top: 30px;
+	margin-bottom: 30px;
+
+	background-color: white;
+	z-index: 2; /* redundant */
+
+	line-height: 20px;
+	font-size: 50px;
+  line-height: 70px;
+	white-space: nowrap;
+}
+
+.scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-left: 30px;
+}
+
+.tile {
+	width: 200px;
+	height: 200px;
+
+	margin-left: 230px;
+  margin-right: 30px;
+	margin-bottom: 30px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+	display: inline-block;
+
+	box-shadow: 8px 8px 15px #888888;
+	z-index: 4; /* redundant */
+	position: relative;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    cursor: pointer;
+}
+
+.header {
+	width: 180px;
+	height: 60px;
+	color: white;
+  font-weight: 600;
+	font-size: 45px;
+	line-height: 60px;
+	text-align: center;
+	z-index: 3;
+}
+
+.info {
+	width: 180px;
+	height: 130px;
+	border: 6px;
+	border-style: solid;
+  border-radius: 8px;
+	color: black;
+  background-color: white;
+	font-size: 100px;
+	font-weight: 400;
+	line-height: 118px;
+	text-align: center;
+	z-index: 3;
+}
+
+a:link {color:white;}      /* unvisited link */
+a:visited {color:white;}  /* visited link */
+a:hover {color:white;}  /* mouse over link */
+a:active {color:white;}  /* selected link */

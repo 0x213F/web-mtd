@@ -1,4 +1,4 @@
-# web-mtd
+**Status**: Saved for later.
 
 http://schultheiss.io/cumtd
 
@@ -20,4 +20,8 @@ Right now the API key is on the front end, users cannot define or save a profile
 - When tapping / clicking on a tile, a window opens up with the GPS location of the bus along with the route of the bus painted on the map.
 - Denote when a bus is a hopper/ltd (possibly adding a gradient https://www.reddit.com/r/UIUC/comments/47mpjg/in_case_anyone_is_looking_for_a_project/d0ec2u3) .
 
-Come say hi -> http://schultheiss.io/connect.html
+----------
+
+**Wanna Talk?**
+
+http://schultheiss.io/connect.html
